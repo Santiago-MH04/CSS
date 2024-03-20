@@ -11,3 +11,22 @@ p{
     text-align: justify;
     color: green;
 }
+.TitulusHimnus{
+    text-align: justify;
+    font-size: 30px;
+}
+.numEstrofa{
+    text-align: center;
+}
+.estroAmarilla{
+    text-align: center;
+    color: #FAEF44;
+}
+.estroAzul{
+    text-align: center;
+    color: #1453A3;
+}
+.estroRoja{
+    text-align: center;
+    color: #EA2B2B;
+}
