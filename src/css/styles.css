@@ -5,9 +5,9 @@ h1{
 }
 h2{
     text-align: left;
-    background-color: blue;
+    color: blue;
 }
 p{
     text-align: justify;
-    background-color: green;
+    color: green;
 }
