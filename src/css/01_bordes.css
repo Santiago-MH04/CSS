@@ -1,0 +1,78 @@
+header{
+    border: 9px dotted blue;
+}
+#parraPrueba{
+    background: black;
+    color: #FFFFFF;
+    border: 7px solid red;
+    border-top-width: 50px;
+    border-right-width: 40px;
+    border-bottom-width: 30px;
+    border-left-width: 20px;
+    border: 50px 40px 30px 20px; /*Para hacerlo en una sola línea, seguir en sentido horario*/ 
+    /*border: 20px 30px; /*Para hacerlo en una sola línea, vertcal y horizontal*/
+    border-radius: 15px; 
+}
+p.uno {
+    border-style: solid;
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+}
+p.dos {
+    border-style: solid;
+    border-width: 20px 5px;
+    /* 20px top and bottom, 5px on the sides */
+}
+p.tres {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /* 25px top, 10px right, 4px bottom and 35px left */
+}
+p.dotted {
+    border-style: dotted;
+}
+p.dashed {
+    border-style: dashed;
+}
+p.solid {
+    border-style: solid;
+}
+p.double {
+    border-style: double;
+}
+p.groove {
+    border-style: groove;
+}
+p.ridge {
+    border-style: ridge;
+}
+p.inset {
+    border-style: inset;
+}
+p.outset {
+    border-style: outset;
+}
+p.none {
+    border-style: none;
+}
+p.hidden {
+    border-style: hidden;
+}
+p.mix {
+    border-style: dotted dashed solid double;
+}
+.bordeRafa{
+    border: 16px outset #223bdd;
+}
+.bordeNetero{
+    border: 20px none #f5700a;    
+}
+.bordeBodoque{
+    border: 24px groove #5cc43b;    
+}
+.bordeNanachi{
+    border: 28px dashed #75609f;    
+}
+.bordeMafalda{
+    border: 32px dotted #ea1f15;    
+}
