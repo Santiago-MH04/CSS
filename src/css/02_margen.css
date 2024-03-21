@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    border: 15px solid black;
+    height: 100vh;
+    flex-wrap: wrap;   /*Para que lo que está inserta*/
+}
+img{
+    background-color: turquoise;
+    border: 5px solid red;
+    margin: 5px;
+    padding: 5px;
+}
