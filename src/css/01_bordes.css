@@ -65,7 +65,13 @@ p.mix {
     border: 16px outset #223bdd;
 }
 .bordeNetero{
-    border: 20px none #f5700a;    
+    /*border: 20px none #f5700a;*/
+    border: 50px 40px 30px 20px; /*Para hacerlo en una sola línea, seguir en sentido horario*/
+    color: #f5700a;
+    border-top-style: solid;
+    border-right-sborder-top-style: dotted;
+    border-bottom-sborder-top-style: dashed;
+    border-left-sborder-top-style: outset;     
 }
 .bordeBodoque{
     border: 24px groove #5cc43b;    
