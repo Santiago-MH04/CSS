@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    border: 5px solid red;
+    display: flex;
+    flex-direction: row;    
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.static{
+    background-color: black;
+    color: whitesmoke;
+    height: 60px;
+    width: 60px;
+    position: static;
+}
+.relative{
+    background-color: aqua;
+    color: black;
+    height: 80px;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    top: 15px;
+    right: 0;
+    bottom: 0;
+    left: -15%;
+}
+.absolute{
+    background-color: brown;
+    color: wheat;
+    height: 70px;
+    position: absolute;
+    top: 15%;
+    right: 25%;
+}
+.fixed{
+    background-color: orange;
+    color: black;
+    height: 80px;
+    justify-content: start;
+    align-items: start;
+    position: fixed;
+}
+.sticky{
+    background-color: yellowgreen;
+    color: black;
+    height: 150px;
+    position: sticky;
+    top: 5%;
+}

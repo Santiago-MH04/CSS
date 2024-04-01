@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* Para darle la fuente */
+:root{
+    --moraditoRiwi: #6B5CFF;
+    --negroRiwi: #302E49;
+    --grisRiwi: #7F7D96;
+}
+*{
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    border-bottom: var(--moraditoRiwi) solid;
+}
+.basiquirri{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
