@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 /* Para darle la fuente */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/* Para importar los íconos */
 :root{
     --moraditoRiwi: #6B5CFF;
     --negroRiwi: #302E49;
@@ -24,7 +26,7 @@ section{
     padding: 5px;
 }
 .lengu{
-    border: solid black 1px;
+    border: none;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -36,7 +38,7 @@ figure{
     margin: 0;
 }
 div{
-    border: solid black 1px;
+    border: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -51,10 +53,27 @@ div{
     position: relative;
     left: 8px;
 }
-.sql{
+.loguito{
     position: relative;
     right: 80px;
 }
+.spring{
+    position: relative;
+    right: 50px;
+}
 footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-top: 20px;
+}
+.botonChat{
+    border: none;
+    background-color: transparent;
+    align-items: end;
+    justify-content: right;
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    
 }
