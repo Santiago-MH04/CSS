@@ -16,14 +16,45 @@ header{
     padding: 0;
     border-bottom: var(--moraditoRiwi) solid;
 }
-.basiquirri{
+section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 100px;
     padding: 5px;
 }
+.lengu{
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+figure{
+    width: 240px;
+    margin: 0;
+}
 div{
+    border: solid black 1px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 400px;
+    margin-right: 10px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center; 
+}
+.logo{
+    border-radius: 10px;
+    position: relative;
+    left: 8px;
+}
+.sql{
+    position: relative;
+    right: 80px;
+}
+footer{
+    margin-top: 20px;
 }
