@@ -1,0 +1,66 @@
+/* Importaciones para fuentes e íconos */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+    /* Variables de entorno */
+:root{
+    --negroOlivo: #353531;
+    --flama: #EC4E20;
+    --naranjaPrinceton: #FF9505;
+    --naranjaPrincetonOpacidad: rgba(255, 149, 5, 0.35); 
+    --azul: #016FB9;
+    --negro: #000000; 
+}
+    /* Ajustes globales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Ubuntu", sans-serif; */
+}
+html{
+    scroll-behavior: smooth;
+}
+    /* Clases de PagiPersonal.html */
+header, footer{
+        /* Contenedor*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--flama);
+        /* Tamaño */
+        /* Texto */
+    text-align: center;
+}
+
+.navS a{
+        /* Contenedor */
+    
+        /* Tamaño */
+    
+        /* Texto */
+    color: white;
+    text-decoration: none;
+}
+
+.disclaimer{
+        /* Contenedor */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--naranjaPrincetonOpacidad);  /*La opacidad se declara en la variable de entorno*/
+    position: relative;
+        /* Tamaño */
+    
+        /* Texto */
+    text-align: center;
+}
+
+.disclaimerTexto p{
+        /* Contendor */
+    padding: 30px;
+    border: solid 1px black;
+        /* Tamaño */
+    gap: 35px;
+        /* Texto */
+    z-index: 1;
+}

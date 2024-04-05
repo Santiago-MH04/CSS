@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="esta es una pagina de ejemplo">
-    <meta name="keywords" content="coder, web, html, programa">
+    <meta name="keywords" content="coder, web, html, programa, landing page, pagipersonal">
     <meta name="sitedomain" content="https://example.com" />
     <meta name="organization" content="riwi" />
     <meta name="author" content="Santiago Marín Higuita" />
@@ -13,16 +13,109 @@
     <meta name="googlebot" content="index,follow" />
     <meta name="revisit-after" content="15days" />
     
+    <link rel="shortcut icon" href="../public/img/website.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/stylesPagiPersonal.css"></link>
 
     <title>PagiPersonal Santiago</title>
 </head>
+
 <body>
-    <!-- Encabezado de la página   -->
-    <header></header> 
-    <!-- Encabezado de la página   -->
-    <main></main>
-    <!-- Pie de página   -->
-    <footer></footer>
+        <!-- Encabezado de la página   -->
+    <header>
+        <h1>Medellín a la mesa</h1>
+        <nav class="navS">
+            <a href="#quienesSomos">
+                <i class="bi bi-geo-alt-fill"></i>
+                <span>Quiénes somos</span>
+            </a>
+            <a href="#restaurantes">
+                <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/restaurant-on-site.png" alt="restaurant-on-site"/>
+                Restaurantes
+            </a>
+            <a href="#contacto">
+                <i class="bi bi-pencil-fill"></i>
+                Contacto
+            </a>
+        </nav>
+    </header> 
+
+        <!-- Encabezado de la página   -->
+    <main>
+            <!-- Sección Disclaimer -->
+        <section class="disclaimer">
+            <article class="disclaimerTexto">
+                <h2>¿Deseas conocer la oferta gastronómica de la ciudad?</h2>
+                <p>
+                    Medellín es una ciudad con una creciente oferta gastronómica, que atrae cada vez más a propios y extraños. Si lo que
+                    quieres es conocer algunas cosas que tiene para ofrecer nuestra ciudad, este es el lugar. ¡Acompáñanos!
+                </p>
+            </article>
+            <article class="tenor-gif-embed" data-postid="15260716" data-share-method="host" data-aspect-ratio="1.67539"
+                data-width="50%"><a href="https://tenor.com/view/excellent-lecker-restaurant-best-mr-bean-gif-15260716">Excellent
+                    Lecker GIF</a>from <a href="https://tenor.com/search/excellent-gifs">Excellent GIFs</a>
+            </article>
+            <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        </section>
+
+            <!-- Sección Quiénes somos -->
+        <section class="quienesSomos">
+            <h2>Quiénes somos</h2>
+            <p>Las opiniones mostradas en este video son de inspiración. Cualquier parecido con la realidad es toda la intención. Sin embargo, los restaurantes mostrados en la página sí los he visitado</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MY_1BvPoymA?si=Pr4ezodcMe-TxFC3"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </section>
+
+            <!-- Restaurantes -->
+        <section class="restaurantes">
+            <h2>Restaurantes</h2>
+        </section>
+            <!-- Contacto -->
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <aside class="amsiedad">
+                <div class="tenor-gif-embed" data-postid="14060420" data-share-method="host" data-aspect-ratio="1.3369"
+                    data-width="15%"><a href="https://tenor.com/view/sponge-bob-bc-nervous-cooking-gif-14060420">Sponge Bob Bc
+                        GIF</a>from <a href="https://tenor.com/search/sponge+bob-gifs">Sponge Bob GIFs</a>
+                </div>
+                <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                <p>Me dio amsiedad que quieras decirme algo</p>
+            </aside>
+            <form action="" method="post">
+                <div class="formuMesa">
+                    <ul>
+                        <li>
+                            <label for="nombre">Nombre completo*</label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre completo">
+                        </li>
+                        <li>
+                            <label for="correo">Correo electrónico*</label>    
+                            <input type="email" name="correo" id="correo" placeholder="ejemplo@correo.com" required>
+                        </li>
+                        <li>
+                            <label for="mensaje">¿Qué quieres decirnos?</label>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Te respondemos en tu correo electrónico máximo en tres días"></textarea>
+                        </li>
+                        <button type="submit">Enviar</button>
+                    </ul>
+                </div>
+            </form>
+        </section>
+    </main>
+
+        <!-- Pie de página   -->
+    <footer>
+        <h2>© Medellín a la mesa-2024</h2>
+        <nav class="navS">
+            <a href="https://www.twitter.com/" target="_blank"><i class="bi bi-twitter-x" title="Twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram" title="Instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook" title="Facebook"></i></a>
+            <a href="https://www.tiktok.com/explore" target="_blank"><i class="bi bi-tiktok" title="TikTok"></i></a>
+            <a href="mailto:santimh04@gmail.com" target="_blank"><i class="bi bi-envelope" title="Envíame un correo"></i></a>
+        </nav>
+    </footer>
 </body>
 </html>
+
