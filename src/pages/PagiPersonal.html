@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,15 +13,21 @@
     <meta name="robots" content="index,follow" />
     <meta name="googlebot" content="index,follow" />
     <meta name="revisit-after" content="15days" />
-    
+
+    <!--Ícono de la página web -->
     <link rel="shortcut icon" href="../public/img/website.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/stylesPagiPersonal.css"></link>
+    <!--Ícono del restaurante -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/stylesPagiPersonal.css">
+    </link>
 
     <title>PagiPersonal Santiago</title>
 </head>
 
 <body>
-        <!-- Encabezado de la página   -->
+    <!-- Encabezado de la página   -->
     <header>
         <h1>Medellín a la mesa</h1>
         <nav class="navS">
@@ -29,38 +36,47 @@
                 <span>Quiénes somos</span>
             </a>
             <a href="#restaurantes">
-                <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/restaurant-on-site.png" alt="restaurant-on-site"/>
-                Restaurantes
+                <i class="fa-solid fa-utensils"></i>
+                <span>Restaurantes</span>
             </a>
             <a href="#contacto">
                 <i class="bi bi-pencil-fill"></i>
-                Contacto
+                <span>Contacto</span>
             </a>
         </nav>
-    </header> 
+    </header>
 
-        <!-- Encabezado de la página   -->
+    <!-- Encabezado de la página   -->
     <main>
-            <!-- Sección Disclaimer -->
+        <!-- Sección Disclaimer -->
         <section class="disclaimer">
             <article class="disclaimerTexto">
-                <h2>¿Deseas conocer la oferta gastronómica de la ciudad?</h2>
+                <h2>¿Deseas conocer la oferta gastronómica de Medellín?</h2>
                 <p>
-                    Medellín es una ciudad con una creciente oferta gastronómica, que atrae cada vez más a propios y extraños. Si lo que
-                    quieres es conocer algunas cosas que tiene para ofrecer nuestra ciudad, este es el lugar. ¡Acompáñanos!
+                    Medellín es una ciudad con una creciente oferta gastronómica, que atrae cada vez más a propios y
+                    extraños. Si lo que
+                    quieres es conocer algunas cosas que tiene para ofrecer nuestra ciudad, este es el lugar.
+                    ¡Acompáñanos!
                 </p>
             </article>
             <article class="tenor-gif-embed" data-postid="15260716" data-share-method="host" data-aspect-ratio="1.67539"
-                data-width="50%"><a href="https://tenor.com/view/excellent-lecker-restaurant-best-mr-bean-gif-15260716">Excellent
+                data-width="50%"><a
+                    href="https://tenor.com/view/excellent-lecker-restaurant-best-mr-bean-gif-15260716">Excellent
                     Lecker GIF</a>from <a href="https://tenor.com/search/excellent-gifs">Excellent GIFs</a>
             </article>
             <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
         </section>
 
-            <!-- Sección Quiénes somos -->
-        <section class="quienesSomos">
-            <h2>Quiénes somos</h2>
-            <p>Las opiniones mostradas en este video son de inspiración. Cualquier parecido con la realidad es toda la intención. Sin embargo, los restaurantes mostrados en la página sí los he visitado</p>
+        <!-- Sección Quiénes somos -->
+        <section class="quienesSomos" id="quienesSomos">
+            <div class="quienesSomosCarreta">
+                <h2>Quiénes somos</h2>
+                <p>
+                    Las opiniones mostradas en este video son de inspiración. Cualquier parecido con la realidad es toda la
+                    intención. Sin embargo, los restaurantes mostrados en la página sí los he visitado
+                </p>
+            </div>
+            
             <iframe width="560" height="315" src="https://www.youtube.com/embed/MY_1BvPoymA?si=Pr4ezodcMe-TxFC3"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -68,44 +84,94 @@
             </iframe>
         </section>
 
-            <!-- Restaurantes -->
-        <section class="restaurantes">
+        <!-- Restaurantes -->
+        <section class="restaurantes" id="restaurantes">
             <h2>Restaurantes</h2>
+            <article class="elBotánico">
+                <div class="carreta">
+                    <h3>El Botánico</h3>
+                    <p>
+                        BISTROT NEOYORQUINO
+                        <br>
+                        Una cocina honesta que busca la
+                        exaltación de cada ingrediente y el sabor en sus comidas y barra.
+                    </p>
+                    <button>Quiero ir</button>
+                </div>
+                <figure>
+                    <img class="imgBot"
+                        src="https://scontent.feoh1-1.fna.fbcdn.net/v/t39.30808-6/313268676_566936232100571_8742880298785932193_n.jpg?stp=dst-jpg_p960x960&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=CYSro2moaz4Ab41fJxA&_nc_ht=scontent.feoh1-1.fna&oh=00_AfAcfZKFCv4CENcZzdR5PDSYC1h3TnsqNd2fi7qTpVHNBg&oe=6616A473"
+                        alt="elBotánicoPic">
+                </figure>
+            </article>
+
+            <article class="piton">
+                <figure>
+                    <img class="imgPit" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F29%2F33%2F7f%2F77%2Fespacios-que-nos-llevan.jpg&f=1&nofb=1&ipt=280bcac6c0a616e41c02070b6e1e66894abbc047eb8ca497d82026f4f7da0e8d&ipo=images" alt="palma piton">
+                </figure>
+                <div class="carretaPalma">
+                    <h3 class="palma">Palma Pitón</h3>
+                    <p>
+                        Palma Pitón es el lugar donde el cielo se une con la buena comida, deliciosos cocteles y buena compañía
+                    </p>
+                    <button class="botonpalma">Quiero ir</button>
+                </div>
+            </article>
+
+            <article class="Gabo">
+                <div class="carretaGabo">
+                    <h3>Gabo.mde</h3>
+                    <p>
+                        Gabo.mde es un restaurante inspirado en el realismo mágico, alusivo a Gabriel García Márquez por ser uno de los mayores exponentes del género
+                    </p>
+                    <button>Quiero ir</button>
+                </div>
+                <figure>
+                    <img class="imgGabo" src="https://scontent.feoh1-1.fna.fbcdn.net/v/t39.30808-6/300782440_110311891796680_386702093989609016_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=zc1ebLFPXvkAb4u_XhM&_nc_ht=scontent.feoh1-1.fna&oh=00_AfAaUSZ85XSzBMwNuYlHOtNY0eiE7QWjw-inmrieoqdCdA&oe=6616C1D5" alt="GaboPic">
+                </figure>
+            </article>
         </section>
-            <!-- Contacto -->
-        <section class="contacto">
+
+        <!-- Contacto -->
+        <section id="contacto">
             <h2>Contacto</h2>
-            <aside class="amsiedad">
-                <div class="tenor-gif-embed" data-postid="14060420" data-share-method="host" data-aspect-ratio="1.3369"
-                    data-width="15%"><a href="https://tenor.com/view/sponge-bob-bc-nervous-cooking-gif-14060420">Sponge Bob Bc
-                        GIF</a>from <a href="https://tenor.com/search/sponge+bob-gifs">Sponge Bob GIFs</a>
-                </div>
-                <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-                <p>Me dio amsiedad que quieras decirme algo</p>
-            </aside>
-            <form action="" method="post">
-                <div class="formuMesa">
-                    <ul>
-                        <li>
-                            <label for="nombre">Nombre completo*</label>
-                            <input type="text" name="nombre" id="nombre" placeholder="Nombre completo">
-                        </li>
-                        <li>
-                            <label for="correo">Correo electrónico*</label>    
-                            <input type="email" name="correo" id="correo" placeholder="ejemplo@correo.com" required>
-                        </li>
-                        <li>
-                            <label for="mensaje">¿Qué quieres decirnos?</label>
-                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Te respondemos en tu correo electrónico máximo en tres días"></textarea>
-                        </li>
-                        <button type="submit">Enviar</button>
-                    </ul>
-                </div>
-            </form>
+            <article class="contacto">
+                <form action="" method="post">
+                    <div class="formuMesa">
+                        <ul class="form">
+                            <li>
+                                <label for="nombre">Nombre completo*</label>
+                                <input type="text" name="nombre" id="nombre" placeholder="Nombre completo">
+                            </li>
+                            <li>
+                                <label for="correo">Correo electrónico*</label>
+                                <input type="email" name="correo" id="correo" placeholder="ejemplo@correo.com" required>
+                            </li>
+                            <li>
+                                <label for="mensaje">¿Qué quieres decirnos?</label>
+                                <textarea name="mensaje" id="mensaje" cols="30" rows="10"
+                                    placeholder="Te respondemos en tu correo electrónico máximo en tres días"></textarea>
+                            </li>
+                            <button type="submit">Enviar</button>
+                        </ul>
+                    </div>
+                </form>
+                <aside class="amsiedad">
+                    <p>Me dio amsiedad que quieras decirme algo</p>
+                    <div class="tenor-gif-embed" data-postid="14060420" data-share-method="host" data-aspect-ratio="1.3369"
+                        data-width="450%"><a href="https://tenor.com/view/sponge-bob-bc-nervous-cooking-gif-14060420">Sponge
+                            Bob Bc
+                            GIF</a>from <a href="https://tenor.com/search/sponge+bob-gifs">Sponge Bob GIFs</a>
+                    </div>
+                    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                    
+                </aside>
+            </article>
+            
         </section>
     </main>
 
-        <!-- Pie de página   -->
+    <!-- Pie de página   -->
     <footer>
         <h2>© Medellín a la mesa-2024</h2>
         <nav class="navS">
@@ -113,9 +179,10 @@
             <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram" title="Instagram"></i></a>
             <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook" title="Facebook"></i></a>
             <a href="https://www.tiktok.com/explore" target="_blank"><i class="bi bi-tiktok" title="TikTok"></i></a>
-            <a href="mailto:santimh04@gmail.com" target="_blank"><i class="bi bi-envelope" title="Envíame un correo"></i></a>
+            <a href="mailto:santimh04@gmail.com" target="_blank"><i class="bi bi-envelope"
+                    title="Envíame un correo"></i></a>
         </nav>
     </footer>
 </body>
-</html>
 
+</html>
